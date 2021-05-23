@@ -1,0 +1,10 @@
+[
+    {
+        "type":"优惠券",
+        "describe":"购买课程",
+        "incode":20,
+        "expend":20,
+        "cash":200,
+        "remark":"全栈课程"
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "classfy":"快递服务",
+        "title":"绝影特快",
+        "img":"logs/card2.png",
+        "content":"绝影为客户提供的“快速、准时、稳定、安全”的高品质、门到门快递服务，优势路线，优先保障",
+        "summary":"具有竞争力的时效，通过各环节专属流程保障，提供门到门的高品质快递服务",
+        "text":[
+            {
+                "content":"优势资源保障，各环节通过专属流程进行优先发运、中转和派送，提供具有竞争力的时效",
+                "pic":"logs/server1.png",
+                "title":"精准承诺，时效稳定、稳定"
+            },
+            {
+                "content":"多款增值服务满足您的各种寄递场景需求",
+                "pic":"logs/server2.png",
+                "title":"客制化服务"
+            },
+            {
+                "content":"科技赋能实现网络透明化，智能化",
+                "pic":"logs/server3.png",
+                "title":"全程跟踪"
+            }
+        ],
+        "charge":"<p>省内：<span style='color:red;font-size:14px;'>12</span>元/KG</p><p style='margin-top:-10px;'>省外：<span style='color:red;font-size:14px;'>27</span>元/KG</p>",
+        "cover":"中国内地，超过300个城市",
+        "promise":"在指定服务范围和寄递时间内收寄，根据寄件时间及快件寄/收的行政区域，可查询明确的快件送达时间，最快当天送达。",
+        "timer":"次日 12:00 前",
+        "weight":"1kg",
+        "time":"暂不支持省内；省外：第三天 12:00 前",
+        "price":"12.00 元起",
+        "desc":"省内：12元/kg 超过1kg，每千克加2元；省外：18元/kg 超过1kg，每千克加6元"
+    },
+    {
+        "classfy":"快递服务",
+        "title":"绝影标快",
+        "img":"logs/card1.png",
+        "content":"全场景的标准时效快递，是绝影为客户提供的价格经济、时效稳定、服务范围广的门到门快递服务",
+        "summary":"精准时效，通过各环节专属流程保障，提供门到门的高品质快递服务",
+        "text":[
+            {
+                "content":"优势资源保障，各环节通过专属流程进行优先发运、中转和派送，提供具有竞争力的时效",
+                "pic":"logs/server1.png",
+                "title":"精准承诺，时效稳定、稳定"
+            },
+            {
+                "content":"多款增值服务满足您的各种寄递场景需求",
+                "pic":"logs/server2.png",
+                "title":"客制化服务"
+            },
+            {
+                "content":"科技赋能实现网络透明化，智能化",
+                "pic":"logs/server3.png",
+                "title":"全程跟踪"
+            }
+        ],
+        "charge":"<p>省内：<span style='color:red;font-size:14px;'>10</span>元/KG</p><p style='margin-top:-10px;'>省外：<span style='color:red;font-size:14px;'>25</span>元/KG</p>",
+        "cover":"中国内地，超过300个城市",
+        "promise":"在指定服务范围和寄递时间内收寄，根据寄件时间及快件寄/收地的行政区域，可查询明确的快件送达时间，最快次日12:00前送达。",
+        "timer":"第三天 12:00 前",
+        "weight":"1kg",
+        "time":"省内：次日 12:00 前;省外：第三天 12:00 前",
+        "price":"12.00 元起",
+        "desc":"省内：10元/kg 超过1kg，每千克加2元；省外：15元/kg 超过1kg，每千克加4元"
+    },
+    {
+        "classfy":"快运服务",
+        "title":"整车直达",
+        "img":"logs/card3.png",
+        "content":"客制化的整车装运物流服务，主要覆盖单票3吨以上，通过点对点、点对多点的方式实现货物完全直达",
+        "summary":"满足客户一辆或多辆整车发货需求的定制整车直达产品",
+        "text":[
+            {
+                "content":"",
+                "pic":"logs/server1.png",
+                "title":"通过点对点、点对多点的方式实现货物完全直达，避免中转环节"
+            },
+            {
+                "content":"",
+                "pic":"logs/server2.png",
+                "title":"为客户定制服务，可到县、乡、镇，并支持个性报价"
+            },
+            {
+                "content":"",
+                "pic":"logs/server3.png",
+                "title":"全程掌上监控，发货看板"
+            },
+            {
+                "content":"",
+                "pic":"logs/server1.png",
+                "title":"串点、装卸、包装、签单返还等"
+            }
+        ],
+        "charge":"客制化定价",
+        "cover":"中国内地，超过300个城市",
+        "promise":"根据客户需求规划线路，并根据线路运行时长承诺时效",
+        "timer":"",
+        "weight":"",
+        "time":"",
+        "price":"",
+        "desc":"" 
+    },
+    {
+        "classfy":"快运服务",
+        "title":"重货包裹",
+        "img":"logs/card4.png",
+        "content":"主打20-100KG门到门服务，面向B2C、C2C、B2B等多种场景，高品质上门上楼收派服务",
+        "summary":"主要提供单票20-100KG的大件托运服务，采用首续重报价，包接包送，满足B2C电商大包裹与B2B门店调拨场景发货需求，全程提供高品质收派服务",
+        "text":[
+            {
+                "content":"提供送货上楼/选时派送/送装一体/拆包点亮/退换货等个性化需求",
+                "pic":"logs/server1.png",
+                "title":"专业入户"
+            },
+            {
+                "content":"近2万网点覆盖全国绝大部分区域",
+                "pic":"logs/server2.png",
+                "title":"网络覆盖广"
+            },
+            {
+                "content":"绝影自有网络资源，时效更快更稳定",
+                "pic":"logs/server3.png",
+                "title":"时效稳定"
+            }
+        ],
+        "charge":"客制化定价",
+        "cover":"中国内地，超过300个城市",
+        "promise":"根据客户需求规划线路，并根据线路运行时长承诺时效",
+        "timer":"",
+        "weight":"",
+        "time":"",
+        "price":"",
+        "desc":"" 
+    }
+]

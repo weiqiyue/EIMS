@@ -1,0 +1,485 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210407.234019.18664.0.001.json",
+    "dumpEventTime": "2021-04-07T23:40:19Z",
+    "dumpEventTimeStamp": "1617810019576",
+    "processId": 18664,
+    "cwd": "C:\\Users\\12287\\Desktop\\魏奇--剩下的软件你可以用\\lms-server",
+    "commandLine": [
+      "node",
+      "E:\\WQ\\nodejs\\node_global\\\\node_modules\\@vue\\cli\\bin\\vue.js",
+      "ui"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Home China",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 66827609,
+        "nice": 0,
+        "sys": 37361781,
+        "idle": 226537890,
+        "irq": 6333734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 64236156,
+        "nice": 0,
+        "sys": 25962421,
+        "idle": 240528343,
+        "irq": 515968
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 75800125,
+        "nice": 0,
+        "sys": 27486609,
+        "idle": 227440187,
+        "irq": 418578
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 72972953,
+        "nice": 0,
+        "sys": 25472531,
+        "idle": 232281437,
+        "irq": 358453
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::1db7:19ad:2fe9:d62f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.231.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::80d9:d2ee:44fe:70ff",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.88.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "WLAN",
+        "internal": false,
+        "mac": "74:e5:f9:af:ba:bd",
+        "address": "fe80::41be:9a2:755:bb92",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "WLAN",
+        "internal": false,
+        "mac": "74:e5:f9:af:ba:bd",
+        "address": "10.200.135.191",
+        "netmask": "255.254.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-B92GCPT8"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7bdbe1389",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7bdbe57cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7bdbe4778",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7bdcd332b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be4d6f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be4bef91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be38c85c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be394961",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be389fc3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be388794",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be3a9a65",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be116239",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be902c6d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be903e7b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be93e4a7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7be8ef815",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002f4331063f5",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 133156864,
+    "totalCommittedMemory": 133156864,
+    "usedMemory": 129717064,
+    "availableMemory": 2002030728,
+    "memoryLimit": 2131755008,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047488,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 68792320,
+        "committedMemory": 68792320,
+        "capacity": 68459560,
+        "used": 67210040,
+        "available": 1249520
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 901120,
+        "used": 719616,
+        "available": 181504
+      },
+      "map_space": {
+        "memorySize": 3149824,
+        "committedMemory": 3149824,
+        "capacity": 3146208,
+        "used": 1877600,
+        "available": 1268608
+      },
+      "large_object_space": {
+        "memorySize": 58028032,
+        "committedMemory": 58028032,
+        "capacity": 57965240,
+        "used": 57965240,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 380928,
+        "committedMemory": 380928,
+        "capacity": 320672,
+        "used": 320672,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 544768,
+        "committedMemory": 544768,
+        "capacity": 1047488,
+        "used": 544112,
+        "available": 503376
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 429.953,
+    "kernelCpuSeconds": 64.437,
+    "cpuConsumptionPercent": 0.357133,
+    "maxRss": 304713728,
+    "pageFaults": {
+      "IORequired": 14923130,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 106191,
+      "writes": 842
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "C:=C:\\Users\\12287\\Desktop\\魏奇--剩下的软件你可以用\\lms-server",
+    "": "E:=E:\\WQ\\小工具\\cmder",
+    "": "ExitCode=00000000",
+    "add_path": "E:\\WQ\\小工具\\cmder",
+    "add_to_path": "E:\\WQ\\小工具\\cmder",
+    "aliases": "E:\\WQ\\小工具\\cmder\\config\\user_aliases.cmd",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANSICON": "116x1000 (116x23)",
+    "ANSICON_DEF": "7",
+    "APPDATA": "C:\\Users\\12287\\AppData\\Roaming",
+    "architecture_bits": "64",
+    "ccall": "call \"E:\\WQ\\小工具\\cmder\\vendor\\bin\\cexec.cmd\"",
+    "cexec": "\"E:\\WQ\\小工具\\cmder\\vendor\\bin\\cexec.cmd\"",
+    "clink_architecture": "x64",
+    "CM2014DIR": "C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\",
+    "CMDER_ALIASES": "1",
+    "CMDER_CLINK": "1",
+    "CMDER_CONFIGURED": "1",
+    "CMDER_INIT_END": " 9:13:03.99",
+    "CMDER_INIT_START": " 9:13:03.19",
+    "CMDER_ROOT": "E:\\WQ\\小工具\\cmder",
+    "CMDER_SHELL": "cmd",
+    "CMDER_USER_FLAGS": " ",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-B92GCPT8",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "ConEmuANSI": "ON",
+    "ConEmuAnsiLog": "",
+    "ConEmuBackHWND": "0x000404CA",
+    "ConEmuBaseDir": "E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBaseDirShort": "E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBuild": "191012",
+    "ConEmuDir": "E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDrawHWND": "0x00030610",
+    "ConEmuDrive": "E:",
+    "ConEmuHooks": "Enabled",
+    "ConEmuHWND": "0x00040308",
+    "ConEmuIsAdmin": "ADMIN",
+    "ConEmuPalette": "<Gamma 1>",
+    "ConEmuPID": "8376",
+    "ConEmuServerPID": "7432",
+    "ConEmuTask": "{cmd::Cmder as Admin}",
+    "ConEmuWorkDir": "E:\\WQ\\小工具\\cmder",
+    "ConEmuWorkDrive": "E:",
+    "configsetroot": "C:\\WINDOWS\\ConfigSetRoot",
+    "CUDA_CACHE_MAXSIZE": "268435456",
+    "currenArgu": "/setpath",
+    "debug_output": "0",
+    "depth": "1",
+    "dp0": "E:\\WQ\\nodejs\\node_global\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "fast_init": "0",
+    "feFlagName": " ",
+    "feNot": "false",
+    "find_query": "E:\\\\WQ\\\\小工具\\\\cmder",
+    "FORCE_COLOR": "1",
+    "found": "1",
+    "git_executable": "E:\\WQ\\小工具\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
+    "HOME": "C:\\Users\\12287",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\12287",
+    "ILBDIR": "C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\",
+    "lib_base": "call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_base.cmd\"",
+    "lib_console": "call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_console.cmd\"",
+    "lib_git": "call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_git.cmd\"",
+    "lib_path": "call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_path.cmd\"",
+    "lib_profile": "call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_profile.cmd\"",
+    "LOCALAPPDATA": "C:\\Users\\12287\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-B92GCPT8",
+    "MAVEN_OPTS": "-Xms128m -Xmx512m",
+    "max_depth": "1",
+    "nix_tools": "1",
+    "NODE_PATH": "E:\\WQ\\nodejs\\node_modules",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OLD_PATH": "E:\\WQ\\小工具\\cmder\\vendor\\bin;E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5;E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu;javac;E:\\WQ\\jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\WQ\\nodejs\\node_global;E:\\WQ\\mongodb\\bin;E:\\WQ\\maven\\apache-maven-3.6.1\\bin;E:\\WQ\\nodejs\\;E:\\WQ\\vscode\\Microsoft VS Code\\bin;E:\\WQ\\crt\\;C:\\Users\\12287\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\12287\\AppData\\Roaming\\npm",
+    "OneDrive": "C:\\Users\\12287\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\12287\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "E:\\WQ\\小工具\\cmder\\vendor\\bin;E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5;E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu;javac;E:\\WQ\\jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\WQ\\nodejs\\node_global;E:\\WQ\\mongodb\\bin;E:\\WQ\\maven\\apache-maven-3.6.1\\bin;E:\\WQ\\nodejs\\;E:\\WQ\\vscode\\Microsoft VS Code\\bin;E:\\WQ\\crt\\;C:\\Users\\12287\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\12287\\AppData\\Roaming\\npm;E:\\WQ\\小工具\\cmder",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "print_debug": "if 0 gtr 0 call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_console.cmd\" debug_output",
+    "print_error": "call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_console.cmd\" show_error",
+    "print_verbose": "if 0 gtr 0 call \"E:\\WQ\\小工具\\cmder\\vendor\\lib\\lib_console.cmd\" verbose_output",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\12287\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "time_init": "0",
+    "TMP": "C:\\Users\\12287\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-B92GCPT8",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-B92GCPT8",
+    "USERNAME": "12287",
+    "USERPROFILE": "C:\\Users\\12287",
+    "user_aliases": "E:\\WQ\\小工具\\cmder\\config\\user_aliases.cmd",
+    "verbose_output": "0",
+    "VRAY_FOR_MAYA2019_MAIN": "C:\\Program Files\\Chaos Group\\V-Ray\\Maya 2019 for x64",
+    "VRAY_FOR_MAYA2019_PLUGINS": "C:\\Program Files\\Chaos Group\\V-Ray\\Maya 2019 for x64/vrayplugins",
+    "VRAY_OSL_PATH_MAYA2019": "C:\\Program Files\\Chaos Group\\V-Ray\\Maya 2019 for x64/opensl",
+    "VRAY_SEND_FEEDBACK": "1",
+    "VRAY_TOOLS_MAYA2019": "C:\\Program Files\\Chaos Group\\V-Ray\\Maya 2019 for x64/bin",
+    "VUE_APP_CLI_UI_URL": "",
+    "VUE_CLI_API_MODE": "true",
+    "VUE_CLI_CONTEXT": "C:\\Users\\12287\\Desktop\\魏奇--剩下的软件你可以用\\lms-server",
+    "VUE_CLI_IPC": "vue-cli-UbXC7DoQA",
+    "VUE_CLI_PROJECT_ID": "uR-jHen5Y",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "E:\\WQ\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "E:\\WQ\\小工具\\cmder\\vendor\\conemu-maximus5\\ConEmu\\ConEmuHk64.dll",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

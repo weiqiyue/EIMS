@@ -1,0 +1,3 @@
+admin.js:用户与管理员的模型
+carousel.js:前端轮播图的模型
+new.js:前端的新闻、物流信息模型
